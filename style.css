@@ -10255,3 +10255,7 @@ body.dark .ac-title {
   float: right;
   padding: 10px;
 }
+
+.single-product-details h5 {
+  font-size: 14px !important;
+}

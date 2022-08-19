@@ -274,5 +274,8 @@
     <script src="js/gsap.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/newgallery.js"></script>
+    <script>
+      barba.hooks.afterLeave(() => {console.log(‘123456’); setTimeout(() => gallery(), 3000);});
+    </script>
   </body>
 </html>

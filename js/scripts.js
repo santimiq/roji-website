@@ -711,6 +711,10 @@
         );
       });
 
+      barba.hooks.afterLeave(() => {
+        setTimeout(() => gallery(), 3000);
+      });
+
       barba.hooks.after((data) => {
         let cursorLoaded = gsap.timeline({
           onStart: function () {},
